@@ -58,6 +58,10 @@ pre {
   overflow: hidden;
 }
 
+p{
+  margin-bottom: 1%;
+}
+
 header {
   font-weight: bold;
   margin-top: 2ch;
