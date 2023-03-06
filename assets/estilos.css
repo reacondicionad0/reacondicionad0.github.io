@@ -15,21 +15,21 @@ html {
 #nombre_web {
   font-weight: bold;
   font-size: 22px;
-  background: rgb(226,226,226);
-  background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(210,255,208,1) 50%, rgba(121,255,100,1) 100%);
+  background: rgb(226, 226, 226);
+  background: linear-gradient(90deg, rgba(226, 226, 226, 1) 0%, rgba(210, 255, 208, 1) 50%, rgba(121, 255, 100, 1) 100%);
   padding: 1ch;
   width: 50%;
   height: 3vh;
-  margin: 1em auto;  
-  box-shadow:   -15px 0 0 0 black,
-                 15px 0 0 0 black,
-                 0 -15px 0 0 black,
-                 0 15px 0 0 black;
+  margin: 1em auto;
+  box-shadow: -15px 0 0 0 black,
+    15px 0 0 0 black,
+    0 -15px 0 0 black,
+    0 15px 0 0 black;
 }
 
 time {
   padding-top: 3ch;
-  display:inline-block;
+  display: inline-block;
 }
 
 h1 {
@@ -58,8 +58,8 @@ pre {
   overflow: hidden;
 }
 
-p{
-  margin-bottom: 1%;
+p {
+  margin-top: 1%;
 }
 
 header {
@@ -74,9 +74,10 @@ footer {
 }
 
 .flotante {
-  border:solid black 1px;
+  border: solid black 1px;
   width: 20%;
   height: auto;
-  float:right;
-  margin-left:2ch;margin-bottom:2ch;
+  float: right;
+  margin-left: 2ch;
+  margin-bottom: 2ch;
 }
