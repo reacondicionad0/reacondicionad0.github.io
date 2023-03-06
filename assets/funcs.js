@@ -12,7 +12,7 @@ function addHeaderAndFooter() {
 }
 
 function datetime2texto() {
-    let fecha_string = document.getElementById("fecha").getAttribute("datetime")
+    let fecha_string = document.getElementById("fecha").textContent;
     fecha = new Date(fecha_string)
     const opciones = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     document.getElementById("fecha").textContent = fecha.toLocaleDateString("es-ES", opciones)
