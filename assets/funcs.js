@@ -1,8 +1,9 @@
 function addHeaderAndFooter() {
     let header = document.createElement('header');
-    header.innerHTML = '<div id="nombre_web">Reacondicionad0</div><a href="/index.html">Inicio</a>' +
+    header.innerHTML = '<div id="nombre_web">Reacondicionad0</div>' +
+        '<a href="/index.html">Inicio</a>' +
         ' | <a href="/sobremi/index.html">Sobre mí</a>' +
-        ' | <a href="https://twitter.com/Reacondicionad0">Contacto</a>';
+        ' | <a href="https://twitter.com/Reacondicionad0" target="_blank">Contacto</a>';
     document.body.prepend(header);
     let footer = document.createElement('footer');
     footer.innerHTML = "<hr>*";
