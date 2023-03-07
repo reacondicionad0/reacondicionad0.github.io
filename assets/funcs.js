@@ -12,16 +12,19 @@ function addHeaderAndFooter() {
 }
 
 function datetime2texto() {
-    let fecha_string = document.getElementById("fecha").textContent;
-    fecha = new Date(fecha_string)
-    const opciones = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    document.getElementById("fecha").textContent = fecha.toLocaleDateString("es-ES", opciones)
+    if (document.getElementById("fecha")) {
+        let fecha_string = document.getElementById("fecha").textContent;
+        fecha = new Date(fecha_string)
+        const opciones = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById("fecha").textContent = fecha.toLocaleDateString("es-ES", opciones)
+    }
+
 }
 
 window.addEventListener('load', addHeaderAndFooter)
 window.addEventListener('load', datetime2texto)
-window.addEventListener('load', function(){
+window.addEventListener('load', function () {
     document.title = "Reacondicionad0 - " + document.title
-  });
+});
 
 
