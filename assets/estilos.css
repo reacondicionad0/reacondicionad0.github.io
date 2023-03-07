@@ -92,3 +92,7 @@ footer {
 #error404 {
   font-size: 20ch;
 }
+
+.centrado {
+  text-align: center;
+}
