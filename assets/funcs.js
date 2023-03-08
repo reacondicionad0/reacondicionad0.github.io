@@ -8,7 +8,6 @@ function addHeaderAndFooter() {
     let footer = document.createElement('footer');
     footer.innerHTML = "<hr>*";
     document.body.appendChild(footer);
-
 }
 
 function datetime2texto() {
@@ -18,16 +17,10 @@ function datetime2texto() {
         const opciones = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         document.getElementById("fecha").textContent = fecha.toLocaleDateString("es-ES", opciones)
     }
-
 }
-
 
 window.addEventListener('load', addHeaderAndFooter)
 window.addEventListener('load', datetime2texto)
 window.addEventListener('load', function () {
     document.title = "Reacondicionad0 - " + document.getElementById("titulo").textContent;
 });
-
-
-
-
