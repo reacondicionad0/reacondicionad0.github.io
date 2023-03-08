@@ -25,10 +25,10 @@ function datetime2texto() {
 window.addEventListener('load', addHeaderAndFooter)
 window.addEventListener('load', datetime2texto)
 window.addEventListener('load', function () {
-    document.title = "Reacondicionad0 - " + document.title
+    document.title = "Reacondicionad0 - " + document.title;
 });
 window.addEventListener('load', function () {
-    document.getElementById("titulo") = document.title
+    document.title = document.getElementById("titulo").textContent;
 });
 
 
