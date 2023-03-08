@@ -1,6 +1,6 @@
 function addHeaderAndFooter() {
     let header = document.createElement('header');
-    header.innerHTML = '<div id="nombre_web">Reacondicionad0</div>' +
+    header.innerHTML = '<div id="nombre_web">Reacondicionad\u2205</div>' +
         '<a href="/">Inicio</a>' +
         ' | <a href="/sobremi/">Sobre mí</a>' +
         ' | <a href="https://twitter.com/Reacondicionad0" target="_blank">Contacto</a>';
