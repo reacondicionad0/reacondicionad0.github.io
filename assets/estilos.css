@@ -96,3 +96,7 @@ footer {
 .centrado {
   text-align: center;
 }
+
+th, td {
+  padding-right: 1rem;
+}
