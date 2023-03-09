@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, sans-serif;
-  padding-bottom: 6ch;
+  padding-bottom: 6ch;  
 }
 
 html {
@@ -99,4 +99,5 @@ footer {
 
 th, td {
   padding-right: 1rem;
+  font-size: 1rem;
 }
