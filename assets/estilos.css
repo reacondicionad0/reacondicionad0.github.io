@@ -1,6 +1,6 @@
 body {
   font-family: Courier, 'Courier New', monospace;
-  padding-bottom: 6ch;  
+  padding-bottom: 6ch;
 }
 
 html {
@@ -97,7 +97,17 @@ footer {
   text-align: center;
 }
 
-th, td {
+th,
+td {
   padding-right: 1rem;
   font-size: 1rem;
+}
+
+.tabladatos {
+  background-color: white;
+  border: 1px solid Black;
+  padding-left: 2%;
+  padding-top: 1ch;
+  padding-bottom: 1ch;
+  overflow: hidden;
 }
